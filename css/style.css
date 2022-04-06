@@ -1,0 +1,221 @@
+body{
+    background-color: aliceblue;
+}
+.encabezado{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#logo {
+    background-color: whitesmoke;
+    width: 300px; /* ancho */
+    height: 150px; /* alto */
+    margin: 5px 10px 12px 15px;
+    padding: 0px;
+}
+.wpp {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    width: 80px; /* ancho */
+    height: 80px; /* alto */ 
+}
+/* Menu */
+.menu{
+    color:black;
+    font-size:14px;
+    text-align: center;
+    } 
+.menu__1{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:grey;
+    border:1px solid grey;
+    text-align:center;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Verdana;
+    text-decoration: none;
+    }
+.menu__1:hover{
+    background-color:#fff;
+    color:#000;
+    }
+/* todas las imagenes y etiquetas iframe las voy a acomodar con flexbox 
+en la proxima entrega */ 
+.mapae{
+        text-align: center;
+    }
+#mapa{
+        width: 300px;
+        height: 200px;
+        border: solid brown;
+    }
+    .footer{
+        background-color: white;
+    }
+/* Formato Page Media */
+    .videodesfile {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+/* Formato Page Contacto */
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: aliceblue; 
+    padding-left: 30px; 
+}           
+.inputcontacto{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: lightblue; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}            
+.texto_mensaje{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: lightblue; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}            
+label{
+    display: block; 
+        float: center;  
+}            
+#enviar{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: lightblue; 
+        border-color: lightblue; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 420px;   
+        cursor: pointer;
+}            
+#enviarboton{
+        color: #fff; 
+}            
+.obligatorio{
+    color: black; 
+}            
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}            
+#contactotit{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: black;
+}
+#contactoit2{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+}
+.parrafocontacto{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+} 
+.formulario input:focus{
+        outline:0;
+        border: 1px solid #97d848;
+}
+.formulario textarea:focus{
+        outline:0;
+        border: 1px solid #97d848;
+}
+/* Formato Pagina About Us */
+.biografia {
+    font-family: cursive;
+}
+
+/* Formato Secciones/Fotos Index*/
+.card{
+    background-color: #000;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 8px;
+    display: inline-block;
+}
+.card-tittle{
+    color:white;
+    padding: 0rem 8.125rem;
+    padding-top: 1.5rem;
+}
+.fotosec{
+    height:300px;
+    padding-left: 5.5rem;
+}
+.card-text{
+    color: white;
+    padding: 0rem 1.5rem;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background: blueviolet;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin: 0rem 7.5rem;
+}
+
+/* Formato Pag Productos*/
+.box{
+    display: flex; /*flex*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.fotoprod{
+    height:200px;
+    padding-left: 3rem;
+}
+.buttonprod{
+    text-decoration: none;
+    color: white;
+    background: blueviolet;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.box-tittle{
+    color:white;
+    padding: 0rem 8.125rem;
+    padding-top: 1.5rem;
+}
