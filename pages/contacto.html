@@ -39,51 +39,33 @@
     </div>
     </div>
 </nav>
-
+<h1 class="titulocontacto">Contactanos!</h1>
 <!-- Formulario de Contacto -->
-    <div class="contact_form">
-        <div class="formulario">      
-        <h1 id="contactotit">Contactanos!</h1>
-            <h3 id="contactoit2">Escríbenos y en breve los pondremos en contacto contigo</h3>
-            <form action="submeter-formulario.php" method="post">       
-                    <p class="parrafocontacto">
-                    <label for="nombre" class="colocar_nombre">Nombre
-                        <span class="obligatorio">*</span>
-                    </label>
-                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre" class="inputcontacto">
-                    </p>
-                    <p class="parrafocontacto">
-                    <label for="email" class="colocar_email">Email
-                        <span class="obligatorio">*</span>
-                    </label>
-                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email" class="inputcontacto">
-                    </p>
-                    <p class="parrafocontacto">
-                    <label for="telefone" class="colocar_telefono">Teléfono
-                    </label>
-                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" class="inputcontacto">
-                    </p>
-                    <p class="parrafocontacto">
-                    <label for="asunto" class="colocar_asunto">Asunto
-                        <span class="obligatorio">*</span>
-                    </label>
-                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto" class="inputcontacto">
-                    </p>    
-                    <p class="parrafocontacto">
-                    <label for="mensaje" class="colocar_mensaje">Mensaje
-                        <span class="obligatorio">*</span>
-                    </label>                     
-                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                    </p>                    
-                    <button type="submit" name="enviar_formulario" id="enviar"><p id="enviarboton">Enviar</p></button>
-                    <p class="aviso">
-                      <span class="obligatorio"> * </span>los campos son obligatorios.
-                    </p>          
-                
-            </form>
-        </div>  
-    </div>
-<!--logo whatsapp-->
+<form class="fromulario">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Nombre*</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu Nombre">
+        </div><br>
+        <div class="form-group">
+        <label for="exampleInputEmail1">Email*</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
+        <small id="emailHelp" class="form-text text-muted"></small>
+        </div><br>
+        <div class="form-group">
+            <label for="formGroupExampleInput">Telefono</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu Telefono">
+        </div><br>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">En que podemos ayudarte*</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div><br>
+        <small id="emailHelp" class="form-text text-muted">* Mandatorios</small><br><br>
+        <div class="botonenviar">
+        <button type="button" class="btn btn-secondary btn-lg" >Enviar</button>
+        </div>
+    </form>
+
+    <!--logo whatsapp-->
     <img src="../fotos/logowpp.png" alt="logowpp" class="wpp">
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
