@@ -1,19 +1,43 @@
+
 body{
-    background-color: aliceblue;
+    background-color: white;
 }
+/* Imagen encabezado */
 .encabezado{
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    width: 96%;
+    max-width: 960px;
+    margin: auto;
 }
 #logo {
-    background-color: whitesmoke;
-    width: 300px; /* ancho */
-    height: 150px; /* alto */
+    background-color: white;
+    height: 15rem; /* alto */
     margin: 5px 10px 12px 15px;
     padding: 0px;
 }
+/*IMG en index*/
+.divguapindex{
+    width: 96%;
+    max-width: 960px;
+    margin: 1rem auto;
+}
+.guapasindex{
+    width: 100%;
+    height: auto;
+}
+
+/*Formato Cards*/
+.card{
+    margin: 1rem;
+    border: #000 1px solid;
+}
+.card-group{
+    justify-content: center;
+}
+/* Logo Wpp*/
 .wpp {
     position: fixed;
     bottom: 10px;
@@ -21,43 +45,8 @@ body{
     width: 80px; /* ancho */
     height: 80px; /* alto */ 
 }
-/* Menu */
-.menu{
-    color:black;
-    font-size:14px;
-    text-align: center;
-    } 
-.menu__1{
-    display:inline-block;
-    width:10%;
-    padding:5px 10px;
-    background-color:grey;
-    border:1px solid grey;
-    text-align:center;
-    font-size: medium;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-style: Verdana;
-    text-decoration: none;
-    }
-.menu__1:hover{
-    background-color:#fff;
-    color:#000;
-    }
-/* todas las imagenes y etiquetas iframe las voy a acomodar con flexbox 
-en la proxima entrega */ 
-.mapae{
-        text-align: center;
-    }
-#mapa{
-        width: 300px;
-        height: 200px;
-        border: solid brown;
-    }
-    .footer{
-        background-color: white;
-    }
 /* Formato Page Media */
-    .videodesfile {
+.videodesfile {
         display: flex;
         align-items: center;
         justify-content: center
@@ -159,41 +148,6 @@ label{
 .biografia {
     font-family: cursive;
 }
-
-/* Formato Secciones/Fotos Index*/
-.card{
-    width: 25rem;
-    height: 30rem;
-    border-radius: 8px;
-    display: inline-block;
-/*Agregando gradientes y animaciones*/
-background-image: linear-gradient(black, red);
-
-}
-.card-tittle{
-    color:white;
-    padding: 0rem 8.125rem;
-    padding-top: 1.5rem;
-}
-.fotosec{
-    height:300px;
-    padding-left: 5.5rem;
-    transform: rotate(300deg);
-}
-.card-text{
-    color: white;
-    padding: 0rem 1.5rem;
-}
-.button{
-    text-decoration: none;
-    color: white;
-    background: blueviolet;
-    padding: 0.5rem;
-    border-radius: 8px;
-    margin: 0rem 7.5rem;
-}
-
-
 /* Formato Pag Productos*/
 .box{
     display: flex; /*flex*/
