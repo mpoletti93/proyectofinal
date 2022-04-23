@@ -1,112 +1,109 @@
+body {
+  background-color: white; }
 
-body{
-    background-color: white;
-}
 /* Imagen encabezado */
-.encabezado{
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 96%;
-    max-width: 960px;
-    margin: auto;
-}
-#logo {
-    background-color: white;
-    height: 15rem; /* alto */
-    margin: 5px 10px 12px 15px;
-    padding: 0px;
-}
-.cardmap{
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 60%;
+.encabezado {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  max-width: 960px;
+  margin: auto; }
 
-    justify-items: center;
-}
-#mapa{
-    width: 100%;
-}
-.card-header{
-    text-align: center;
-}
+#logo {
+  background-color: white;
+  height: 15rem;
+  /* alto */
+  margin: 5px 10px 12px 15px;
+  padding: 0px; }
+
+.cardmap {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 60%;
+  justify-items: center; }
+
+#mapa {
+  width: 100%; }
+
+.card-header {
+  text-align: center; }
 
 /*IMG en index*/
-.divguapindex{
-    width: 96%;
-    max-width: 960px;
-    margin: 1rem auto;
-}
-.guapasindex{
-    width: 100%;
-    height: auto;
-}
+.divguapindex {
+  width: 96%;
+  max-width: 960px;
+  margin: 1rem auto; }
+
+.guapasindex {
+  width: 100%;
+  height: auto; }
 
 /*Formato Cards*/
-.card{
-    margin: 2rem;
-    border: white;
-}
-.card-group{
-    justify-content: center;
-}
+.card {
+  margin: 2rem;
+  border: white; }
+
+.card-group {
+  justify-content: center; }
+
 /* Logo Wpp*/
 .wpp {
-    position: fixed;
-    bottom: 10px;
-    right: 30px;
-    width: 80px; /* ancho */
-    height: 80px; /* alto */ 
-}
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  width: 80px;
+  /* ancho */
+  height: 80px;
+  /* alto */ }
+
 /* Formato Page Media */
-#carouselExampleControls{
-    width: 30%;
-    margin: auto;
-}
-.mainmedia{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.videomedia{
-    width: 30%;
-}
+#carouselExampleControls {
+  width: 30%;
+  margin: auto; }
+
+.mainmedia {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.videomedia {
+  width: 30%; }
+
 /* Formato Page Contacto */
-.titulocontacto{
-text-align: center;
-margin-top: 3rem;
-margin-bottom: 2rem;
-}
-.formulario{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10rem;
-}
-.botonenviar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.titulocontacto {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem; }
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem; }
+
+.botonenviar {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 /* Formato Pagina About Us */
-.titulobiografia{
-    text-align: center;
-    font-family: cursive;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
+.titulobiografia {
+  text-align: center;
+  font-family: cursive;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
 .biografia {
-    font-family: cursive;
-    font-size: 2rem;
-}
-.divbio{
-    margin: 1rem;
-    width: 100%;
-}
+  font-family: cursive;
+  font-size: 2rem; }
+
+.divbio {
+  margin: 1rem;
+  width: 100%; }
 
 /* Formato Pag Productos*/
-.btn-group{
-margin-bottom: 1rem;
-}
+.btn-group {
+  margin-bottom: 1rem; }
