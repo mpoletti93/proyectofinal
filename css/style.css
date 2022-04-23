@@ -99,11 +99,13 @@ margin-bottom: 2rem;
 }
 .biografia {
     font-family: cursive;
+    font-size: 2rem;
 }
 .divbio{
     margin: 1rem;
     width: 100%;
 }
+
 /* Formato Pag Productos*/
 .btn-group{
 margin-bottom: 1rem;

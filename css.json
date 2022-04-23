@@ -1,0 +1,6 @@
+
+"media queries max" {
+    "prefix": "mqm",
+    "body": "@media (max-width: $1) {\n\t$2\n}",
+    "description": "Atajo para generar media queries max width"
+}
