@@ -1,0 +1,24 @@
+Page Index 
+    <meta name="keywords" content="ROPA, TIENDA, MUJER">
+    <meta name="description" content="Tienda de Ropa de mujeres Guapas by Barlo">
+    <title>Guapas | Inicio </title> 
+
+Page Productos
+    <meta name="keywords" content="TOP, REMERAS, PANTALONES, JEANS, BODYS, POLLERAS, BUZOS, CAMPERAS">
+    <meta name="description" content="Sección de productos Guapas by Barlo">
+    <title>Guapas | Productos </title> 
+
+Page Contacto
+    <meta name="keywords" content="CONTACTO, CONTACTANOS, COMUNICATE">
+    <meta name="description" content="Sección de contacto con nosotros Guapas by Barlo">
+    <title>Guapas | Contacto </title> 
+
+Page Media
+    <meta name="keywords" content="VIDEOS MODA, DESFILES, FOTOS">
+    <meta name="description" content="Sección de contenido multimedia Guapas by Barlo">
+    <title>Guapas | Media </title> 
+
+Page AboutUs
+    <meta name="keywords" content="GUAPAS, HISTORIA MODA">
+    <meta name="description" content="Sección de nosotros Guapas by Barlo">
+    <title>Guapas | AboutUs </title> 

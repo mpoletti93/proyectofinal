@@ -1,3 +1,22 @@
+/*Map de colores para redes*/
+.facebook {
+  color: red; }
+
+.instagram {
+  color: blue; }
+
+.twitter {
+  color: yellow; }
+
+/*EXTEND*/
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center; }
+
+.segundoEstilo {
+  font-size: larger; }
+
 body {
   background-color: white; }
 
@@ -58,6 +77,10 @@ body {
   height: 80px;
   /* alto */ }
 
+@media only screen and (max-width: 880px) {
+  .wpp {
+    display: none !important; } }
+
 /* Formato Page Media */
 #carouselExampleControls {
   width: 30%;
@@ -96,9 +119,11 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
+/*formato con mixin*/
 .biografia {
-  font-family: cursive;
-  font-size: 2rem; }
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+  text-align: center; }
 
 .divbio {
   margin: 1rem;

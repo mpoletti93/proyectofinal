@@ -1,12 +1,11 @@
-@import "variables";
-@import "tipografia";
+@import "tipografia","maps","variables","extend","mixin";
 
 body{
     background-color: $color1;
 }
 /* Imagen encabezado */
 .encabezado{
-    background-color: $color1;
+    background-color: $color1 ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +14,7 @@ body{
     margin: auto;
 }
 #logo {
-    background-color: $color1;
+    background-color: $color1 ;
     height: 15rem; /* alto */
     margin: 5px 10px 12px 15px;
     padding: 0px;
@@ -48,7 +47,7 @@ body{
 /*Formato Cards*/
 .card{
     margin: 2rem;
-    border: $color1;
+    border: white;
 }
 .card-group{
     justify-content: center;
@@ -61,6 +60,13 @@ body{
     width: 80px; /* ancho */
     height: 80px; /* alto */ 
 }
+@media only screen and (max-width: 880px) {
+    .wpp{
+        display: none !important;
+     }
+    }
+    
+
 /* Formato Page Media */
 #carouselExampleControls{
     width: 30%;
@@ -99,10 +105,11 @@ margin-bottom: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+/*formato con mixin*/
 .biografia {
-    font-family: cursive;
-    font-size: 2rem;
+@include parrafos;
 }
+
 .divbio{
     margin: 1rem;
     width: 100%;
