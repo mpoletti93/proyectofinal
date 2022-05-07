@@ -13,6 +13,13 @@ body{
     max-width: 960px;
     margin: auto;
 }
+@media only screen and (max-width: 880px) {
+    .encabezado{
+        width: 96%;
+        margin: 1rem auto;
+    }
+    }
+    
 #logo {
     background-color: $color1 ;
     height: 15rem; /* alto */
@@ -63,7 +70,7 @@ body{
 @media only screen and (max-width: 880px) {
     .wpp{
         display: none !important;
-     }
+    }
     }
     
 
