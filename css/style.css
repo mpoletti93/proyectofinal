@@ -22,25 +22,13 @@ body {
 
 /* Imagen encabezado */
 .encabezado {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 96%;
   max-width: 960px;
-  margin: auto; }
-
-@media only screen and (max-width: 880px) {
-  .encabezado {
-    width: 96%;
-    margin: 1rem auto; } }
+  margin: 1rem auto; }
 
 #logo {
-  background-color: white;
-  height: 15rem;
-  /* alto */
-  margin: 5px 10px 12px 15px;
-  padding: 0px; }
+  width: 100%;
+  height: auto; }
 
 .cardmap {
   margin-left: 25%;
@@ -72,6 +60,10 @@ body {
 .card-group {
   justify-content: center; }
 
+.card.text-center{
+  max-width: 18rem;
+}
+
 /* Logo Wpp*/
 .wpp {
   position: fixed;
@@ -89,7 +81,12 @@ body {
 /* Formato Page Media */
 #carouselExampleControls {
   width: 30%;
-  margin: auto; }
+  margin: auto; 
+}
+#carouselExampleControls2 {
+    width: 30%;
+    margin: auto; 
+  }
 
 .mainmedia {
   display: flex;
